@@ -2,12 +2,10 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/btnLogout"
+        android:id="@+id/logout"
         android:enabled="true"
-        android:icon="@drawable/ic_logout"
-        android:title="Item"
+        android:icon="@drawable/logout"
+        android:title="Logout"
         android:visible="true"
-        app:showAsAction="always" />
-
-
+        app:showAsAction="withText"/>
 </menu>
