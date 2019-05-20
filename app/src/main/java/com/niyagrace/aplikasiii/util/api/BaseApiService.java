@@ -25,20 +25,4 @@ public interface BaseApiService {
                                        @Field("email") String email,
                                        @Field("password") String password);
 
-//    @GET("semuadosen")
-//    Call<ResponseDosen> getSemuaDosen();
-//
-//    @GET("dosen/{namadosen}")
-//    Call<ResponseDosenDetail> getDetailDosen(@Path("namadosen") String namadosen);
-//
-//    @GET("matkul")
-//    Call<ResponseMatkul> getSemuaMatkul();
-//
-//    @FormUrlEncoded
-//    @POST("matkul")
-//    Call<ResponseBody> simpanMatkulRequest(@Field("nama_dosen") String namadosen,
-//                                           @Field("matkul") String namamatkul);
-//
-//    @DELETE("matkul/{idmatkul}")
-//    Call<ResponseBody> deteleMatkul(@Path("idmatkul") String idmatkul);
 }
